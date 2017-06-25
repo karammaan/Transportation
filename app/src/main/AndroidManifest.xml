@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karam.transportation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Splash_layout">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Driver_home_layout" />
+        <activity android:name=".User_home_layout" />
+        <activity android:name=".User_otp_verify" />
+        <activity android:name=".User_forgot_password" />
+        <activity android:name=".Driver_load_details" />
+        <activity android:name=".User_new_password" />
+        <activity android:name=".Driver_otp_verify" />
+        <activity android:name=".Driver_forgot_password" />
+        <activity android:name=".Driver_new_password" />
+        <activity android:name=".User_profile" />
+        <activity android:name=".Driver_login" />
+        <activity android:name=".User_Login" />
+        <activity android:name=".User_signup" />
+        <activity android:name=".Driver_signup" />
+        <activity android:name=".User_load_history" />
+        <activity android:name=".Driver_load_history" />
+        <activity android:name=".Driver_profile" />
+        <activity android:name=".User_setting" />
+        <activity android:name=".Driver_setting" />
+        <activity android:name=".User_notification" />
+        <activity android:name=".Driver_notification"></activity>
+    </application>
+
+</manifest>

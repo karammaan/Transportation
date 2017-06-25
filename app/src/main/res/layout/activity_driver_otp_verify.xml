@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_otp_verify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER CODE"
+            android:textColor="#838080"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/text"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textColor="#000"
+                android:id="@+id/otp1"
+                />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:inputType="number"
+                android:id="@+id/otp2"/>
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:inputType="number"
+                android:id="@+id/otp3"/>
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:inputType="number"
+                android:id="@+id/otp4"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:text="next"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/next_id"
+            android:onClick="next_layout"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:text="Resend code?"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+</RelativeLayout>
